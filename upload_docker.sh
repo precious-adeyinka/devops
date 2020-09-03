@@ -7,7 +7,7 @@
 # Create dockerpath
 # dockerpath=<your docker ID/path>
 echo "Creating Docker Path..."
-dockerpath=***/devops
+dockerpath=***/***
 
 # Step 2:  
 # Authenticate & tag
