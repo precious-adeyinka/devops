@@ -7,12 +7,12 @@
 # Create dockerpath
 # dockerpath=<your docker ID/path>
 echo "Creating Docker Path..."
-dockerpath=pflash30/devops
+dockerpath=***/devops
 
 # Step 2:  
 # Authenticate & tag
 echo "Authentication and tagging..."
-docker login -u pflash30 -p Brainiac0003!!!
+docker login -u **** -p ****
 docker tag devops $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
