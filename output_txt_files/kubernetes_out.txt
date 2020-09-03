@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Error from server (AlreadyExists): pods "devops" already exists
+NAMESPACE     NAME                                       READY   STATUS    RESTARTS   AGE
+default       devops                                     1/1     Running   0          57m
+default       devops-746d88fb68-8w62h                    1/1     Running   0          80m
+kube-system   coredns-66bff467f8-kcnjr                   1/1     Running   0          94m
+kube-system   etcd-ip-172-31-11-123                      1/1     Running   0          94m
+kube-system   kube-apiserver-ip-172-31-11-123            1/1     Running   0          94m
+kube-system   kube-controller-manager-ip-172-31-11-123   1/1     Running   0          94m
+kube-system   kube-proxy-lm4sx                           1/1     Running   0          94m
+kube-system   kube-scheduler-ip-172-31-11-123            1/1     Running   0          94m
+kube-system   storage-provisioner                        1/1     Running   0          94m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+
