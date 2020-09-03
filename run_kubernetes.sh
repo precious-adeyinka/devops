@@ -10,7 +10,8 @@ dockerpath=pflash30/devops
 # Step 2
 # Run the Docker Hub container with kubernetes
 #kubectl create deployment devops --image=$dockerpath
-kubectl run devops --image=$dockerpath --port=80
+kubectl run devops --image=$dockerpath --port=8080
+
 # Step 3:
 # List kubernetes pods
 kubectl get pods --all-namespaces
